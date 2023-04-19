@@ -1,0 +1,57 @@
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+div{
+    margin-block-end: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem;
+    
+}
+div > * {
+    padding: 1rem;
+}
+header{
+    background-color: #DF1227;
+    
+}
+nav{
+    background-color: #F28F2D;
+}
+section
+{
+    background-color: #FEC000;
+    padding: rem;
+    margin: 0;
+    display: block;
+    height: 10rem;
+}
+
+
+article{
+
+    background-color: #7AC141;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 45%;
+}
+aside{
+    background-color: #016FB4;
+    float: right; 
+   padding: 1rem;
+   float: right;
+   width: 50%;
+   padding-bottom:9.5rem;
+}
+footer{
+    clear: both; /*to keep footer always below both floats*/
+    background-color: #932B8E;
+   
+}
